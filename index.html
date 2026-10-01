@@ -1,13 +1,57 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>min-side</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<html lang="no">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Studentguiden</title>
+</head>
+<body>
+  <header>
+    <h1>Studentguiden</h1>
+    <p>Praktisk informasjon for studiestart.</p>
+  </header>
+  <nav aria-label="Hovedmeny">
+    <ul>
+      <li><a href="#pensum">Pensum</a></li>
+      <li><a href="#campus">Campus</a></li>
+      <li><a href="#kontakt">Kontakt</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="pensum">
+      <h2>Pensum</h2>
+      <p>Her finner du informasjon om bøker og kursmateriell du trenger til studietstart.</p>
+    
+    </section>
+    <section id="campus">
+      <h2>Campus</h2>
+      <p>utforsk studieplassene og kantina på campus.</p>
+      <figure>
+        <img src="https://picssum.photos/400/200" alt="Bilde fra campus">
+        <figcaption>Studieeområdet på campus.</figcaption>
+      </figure>
+      <p>les mer på den offisielle <a href="https://www.usn.no" target="_blank">campus.no</a>-siden.
+      </p>
+    </section>
+      
+     <section id="kontakt">
+      <h2>Kontakt</h2>
+      <p>send oss e-post på <a href="mailto:studentguiden@usn.no">student-guiden@usn.no</a> dersom du har spørsmål.</p> 
+      
+      <form>
+        <label for="e-post">meld deg på nyhetsbrevet:</label>
+        <input type="email" id="e-post" name="e-post" placeholder="din@epost.no" required>
+        
+        <button type="submit">Send</button>
+      </form>
+     </section>
+    
+     </main>
+     
+     <footer>
+      <p>Studentguiden - WES120V</p>
+     </footer>
+     
+    </body>
 </html>
+    
